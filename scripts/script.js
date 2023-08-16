@@ -26,3 +26,16 @@ function updateProgressBar() {
 
     // Atualize a barra de progresso quando a página é rolada
     window.addEventListener('scroll', updateProgressBar);
+
+
+    function showLargeImage() {
+      var modal = document.getElementById("imageModal");
+      var modalImage = document.getElementById("modalImage");
+      modal.style.display = "block";
+      modalImage.src = "images/imagem-candidato-grande.jpg";
+    }
+
+    function closeModal() {
+      var modal = document.getElementById("imageModal");
+      modal.style.display = "none";
+    }

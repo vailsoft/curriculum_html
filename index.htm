@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
   <title>Curriculo Vailson</title>
+  <script src="scripts/script.js" defer></script>
 </head>
 
 <body>
@@ -21,8 +22,8 @@
           <h2>Informações Pessoais</h2>
           <ul>
             <li>Email: <a href="mailto:vailsoft@hotmail.com">vailsoft@hotmail.com</a></li>
-            <li>LinkedIn: <a href='https://www.linkedin.com/in/vailsonsilva/'
-                target="_blank">https://www.linkedin.com/in/vailsonsilva/</a></a></li>
+            <li>LinkedIn:<a href='https://www.linkedin.com/in/vailsonsilva/'
+                target="_blank">https://www.linkedin.com/in/vailsonsilva/</a></li>
             <li>CNH: Categoria AB</li>
           </ul>
 
@@ -31,7 +32,8 @@
             sempre estar com meus conhecimentos atualizados para suprir a necessidade de profissionais na área.</p>
         </div>
         <div class="contact-photo">
-          <img src="images/photo.jpg" alt="Foto Candidato">
+            <img src="images/photo.jpg" alt="Foto Candidato" onclick="showLargeImage()">
+          </a>
         </div>
       </div>
     </section>
@@ -90,8 +92,10 @@
 
     </section>
   </div>
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
   <div id="progress-bar"></div>
-  <script src="scripts/script.js"></script>
 </body>
-
 </html>
