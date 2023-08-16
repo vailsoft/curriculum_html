@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  #location{
+    width: 30px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .contact-photo {
+    flex-shrink: 0;
+  }
+
+  .contact-photo img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  #data {
+    text-align: center;
+  }
+
+  /* Estilos para a barra de progresso */
+  #progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: #007bff;
+    z-index: 9999;
+    transition: width 0.3s ease-in-out;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
